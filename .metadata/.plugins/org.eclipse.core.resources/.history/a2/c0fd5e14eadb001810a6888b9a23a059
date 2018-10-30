@@ -54,8 +54,6 @@ public class CurrencyConversionResource {
 			@PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 		
-		System.out.println("geig");
-		
 		Map<String, String> uriVariables = new HashMap<>();
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);

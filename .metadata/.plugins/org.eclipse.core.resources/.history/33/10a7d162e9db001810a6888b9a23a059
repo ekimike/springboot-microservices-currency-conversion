@@ -54,13 +54,18 @@ public class CurrencyConversionResource {
 			@PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 		
-		System.out.println("geig");
-		
 		Map<String, String> uriVariables = new HashMap<>();
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);
 		
-		CurrencyConversionBean response = proxy.currencyExchange(from, to);
+		
+		
+		ResponseEntity<CurrencyConversionBean> responseEntity = new RestTemplate().getForEntity(
+				"http://localhost:8000/currency-exchange/from/{from}/to/{to}", 
+				CurrencyConversionBean.class,
+				uriVariables);
+		
+		CurrencyConversionBean response = proxy.currencyExchange(from, to);//responseEntity.getBody();
 		
 		return new CurrencyConversionBean(
 				response.getId(),

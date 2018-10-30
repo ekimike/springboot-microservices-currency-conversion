@@ -4250,3 +4250,289 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2018-10-29 20:15:04.199
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.properties.editor, propertyPage: org.springframework.ide.eclipse.boot.properties.editor.preferences.SpringYamlEditorProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:31:45.072
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:32:04.090
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:32:09.572
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				[Working copy] ExchangeValue.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:43:55.712
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				ExchangeValue.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:43:56.955
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				CurrencyExchangeResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:43:59.111
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:44:39.800
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] CurrencyConversionServiceApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:48:47.908
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[+]: {}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:48:48.070
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:48:48.168
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:52:24.382
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:52:24.512
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:52:47.866
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:52:47.997
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:53:48.020
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:55:04.815
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:55:26.329
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:55:26.459
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:56:25.273
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:56:25.402
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:56:57.702
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 20:56:57.883
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:10:44.069
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:10:44.206
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:10:44.440
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:10:45.222
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:01.330
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:01.517
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:01.706
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:02.536
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:52.098
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:52.228
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:12:55.362
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:13:26.662
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {CONTENT | FINE GRAINED | PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:13:26.821
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:15:23.218
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					CurrencyExchangeResource[*]: {CHILDREN | FINE GRAINED}
+						currencyExchange(String, String)[+]: {}
+						currencyExchange(String)[-]: {}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:15:24.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/src)[*]
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:16:40.288
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					<import container>[*]: {CHILDREN | FINE GRAINED}
+						import java.math.BigDecimal[-]: {}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:16:40.417
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:16:40.611
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:16:41.432
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:18:24.546
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {CONTENT | FINE GRAINED | PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-29 21:18:24.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]

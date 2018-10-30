@@ -25,7 +25,6 @@ INDEX VERSION 1.131+/Users/miguel/Documents/CURSOS/Java/BuildingMicroservicesSpr
 2094652035.index
 1677989159.index
 1425615299.index
-768936393.index
 692827658.index
 535707483.index
 576056108.index

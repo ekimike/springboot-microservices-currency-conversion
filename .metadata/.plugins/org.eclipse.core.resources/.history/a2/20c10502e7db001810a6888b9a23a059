@@ -1,0 +1,16 @@
+package com.example.demo.feign;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.example.demo.bean.ExchangeValue;
+
+@FeignClient(name="currency-exchange-service", url="localhost:8000")
+public interface CurrencyExchangeServiceProxy {
+
+	//copied from currency-exchange-service resource	
+	public CurrencyConversionBean currencyExchange(
+			@PathVariable String from
+			,@PathVariable String to) {
+	
+}
