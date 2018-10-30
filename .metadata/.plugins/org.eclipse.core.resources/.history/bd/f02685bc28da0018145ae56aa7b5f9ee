@@ -1,0 +1,17 @@
+package com.example.demo.resources;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+public class CurrencyExchangeResource {
+
+	@GetMapping("/currency-exchange/from/{from}/to/{to}")
+	public void currencyExchange(
+			@PathVariable Integer from
+			,@PathVariable Integer to) {
+		
+	}
+	
+	
+	
+}
