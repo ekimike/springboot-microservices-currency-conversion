@@ -16,8 +16,5 @@ public interface CurrencyExchangeServiceProxy {
 			@PathVariable String from
 			,@PathVariable String to);
 	
-	@GetMapping("/hola/{nombre}")
-	public String getSaludo(
-			@PathVariable String nombre);
 	
 }

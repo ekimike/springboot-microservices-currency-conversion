@@ -12935,3 +12935,393 @@ Caused by: java.lang.NullPointerException
 !MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
 	currency-conversion-service[*]: {CONTENT}
 		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:39:39.222
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-11-02 14:39:41.135
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:160)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:170)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:86)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:43:45.385
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] CurrencyExhangeServiceApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:43:49.117
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				CurrencyExhangeServiceApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:43:54.201
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:06.470
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				[Working copy] CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:11.913
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.bean[*]: {CHILDREN}
+				CurrencyConversionBean.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:36.064
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:51.349
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {CONTENT | FINE GRAINED | PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:51.497
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/src)[*]
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:56.965
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:45:57.325
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:46:57.249
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:46:57.548
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:47:02.489
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				[Working copy] CurrencyConversionResource.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:47:02.621
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:47:10.881
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]
+	limits-service[*]: {CONTENT}
+		ResourceDelta(/limits-service/target)[*]
+	netflix-eureka-naming-server[*]: {CONTENT}
+		ResourceDelta(/netflix-eureka-naming-server/target)[*]
+	spring-cloud-config-server[*]: {CONTENT}
+		ResourceDelta(/spring-cloud-config-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:47:11.308
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]
+	limits-service[*]: {CONTENT}
+		ResourceDelta(/limits-service/src)[*]
+		ResourceDelta(/limits-service/target)[*]
+	netflix-eureka-naming-server[*]: {CONTENT}
+		ResourceDelta(/netflix-eureka-naming-server/target)[*]
+	spring-cloud-config-server[*]: {CONTENT}
+		ResourceDelta(/spring-cloud-config-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:27.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				CurrencyExchangeResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.008
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.resources[*]: {CHILDREN}
+				CurrencyConversionResource.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.971
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				CurrencyExchangeServiceProxy.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.973
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IFIcgjPG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.973
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IFIcgjPG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.973
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:06:38.973
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IFIcgjPG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.850
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GLIdNysT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.850
+!MESSAGE subscribing to classpath changes: sts4.classpath.GLIdNysT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.852
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.853
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.853
+!MESSAGE project netflix-zuul-api-gateway-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.854
+!MESSAGE Preparing classpath changed notification netflix-zuul-api-gateway-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.854
+!MESSAGE project currency-conversion-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.855
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.855
+!MESSAGE project currency-exchange-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.855
+!MESSAGE project limits-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.855
+!MESSAGE project netflix-eureka-naming-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.855
+!MESSAGE project spring-cloud-config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.856
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.856
+!MESSAGE subsribers = [sts4.classpath.GLIdNysT]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.856
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GLIdNysT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.857
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:08.858
+!MESSAGE executing callback sts4.classpath.GLIdNysT netflix-zuul-api-gateway-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.171
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.172
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.173
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.175
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.175
+!MESSAGE executing callback sts4.classpath.GLIdNysT spring-cloud-config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.190
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.190
+!MESSAGE Preparing classpath changed notification netflix-eureka-naming-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.193
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.194
+!MESSAGE executing callback sts4.classpath.GLIdNysT netflix-eureka-naming-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.203
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.204
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.204
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.207
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.207
+!MESSAGE executing callback sts4.classpath.GLIdNysT limits-service false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.220
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.220
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.221
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.224
+!MESSAGE classpath=168 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.224
+!MESSAGE executing callback sts4.classpath.GLIdNysT currency-exchange-service false 168
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.233
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.233
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.235
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.236
+!MESSAGE executing callback sts4.classpath.GLIdNysT currency-conversion-service false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:09.243
+!MESSAGE executing callback sts4.classpath.GLIdNysT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:23.275
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] NetflixZuulApiGatewayServerApplication.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					<import container>[*]: {CHILDREN | FINE GRAINED}
+						import org.springframework.cloud.netflix.zuul.EnableZuulProxy[+]: {}
+					NetflixZuulApiGatewayServerApplication[*]: {ANNOTATIONS}
+						@EnableZuulProxy[+]: {}
+						@EnableZu[-]: {}
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:11:23.403
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:10.630
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/netflix-zuul-api-gateway-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:10.743
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:37.699
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			snippet[+]: {}
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:37.833
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:42.683
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			snippet[*]: {CHILDREN}
+				Snippet.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:52.445
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			snippet[-]: {}
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:12:52.667
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:13:10.236
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/netflix-zuul-api-gateway-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:13:10.356
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:13:29.402
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/netflix-zuul-api-gateway-server/src/main/resources/application.properties)[*]
+		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:13:29.515
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CONTENT}
+		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]

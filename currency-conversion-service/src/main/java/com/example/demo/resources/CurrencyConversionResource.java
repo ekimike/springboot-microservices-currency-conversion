@@ -71,12 +71,4 @@ public class CurrencyConversionResource {
 		
 	}
 	
-	@GetMapping("/saludo/{nombre}")
-	public String getNombre(
-			@PathVariable String nombre) {
-	
-		String response = proxy.getSaludo(nombre);
-		return response;
-	}
-	
 }

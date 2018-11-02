@@ -31,9 +31,4 @@ public class CurrencyExchangeResource {
 		return exchangeValue;
 	}
 	
-	@GetMapping("/hola/{nombre}")
-	public String getSaludo(
-			@PathVariable("nombre") String nombre) {
-		return "hi "+nombre;
-	}
 }
