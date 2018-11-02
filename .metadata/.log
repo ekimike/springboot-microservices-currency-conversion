@@ -12465,3 +12465,165 @@ Caused by: java.lang.NullPointerException
 		ResourceDelta(/netflix-eureka-naming-server/target)[*]
 	spring-cloud-config-server[*]: {CONTENT}
 		ResourceDelta(/spring-cloud-config-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:13:46.611
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				CurrencyExchangeServiceProxy.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:16:34.873
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				CurrencyConversionServiceApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:16:34.875
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CbvgZniq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:16:34.875
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CbvgZniq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:16:34.875
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:16:34.875
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CbvgZniq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.938
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UpsbFPCh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.938
+!MESSAGE subscribing to classpath changes: sts4.classpath.UpsbFPCh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.940
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.940
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.941
+!MESSAGE project currency-exchange-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.941
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.941
+!MESSAGE project currency-conversion-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.942
+!MESSAGE project limits-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.942
+!MESSAGE project netflix-eureka-naming-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.942
+!MESSAGE project spring-cloud-config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.942
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.943
+!MESSAGE subsribers = [sts4.classpath.UpsbFPCh]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.943
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UpsbFPCh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.944
+!MESSAGE classpath=168 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:04.944
+!MESSAGE executing callback sts4.classpath.UpsbFPCh currency-exchange-service false 168
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.320
+!MESSAGE executing callback sts4.classpath.UpsbFPCh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.320
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.320
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.323
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.323
+!MESSAGE executing callback sts4.classpath.UpsbFPCh spring-cloud-config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.333
+!MESSAGE executing callback sts4.classpath.UpsbFPCh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.334
+!MESSAGE Preparing classpath changed notification netflix-eureka-naming-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.334
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.337
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.338
+!MESSAGE executing callback sts4.classpath.UpsbFPCh netflix-eureka-naming-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.346
+!MESSAGE executing callback sts4.classpath.UpsbFPCh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.347
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.347
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.349
+!MESSAGE classpath=91 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.349
+!MESSAGE executing callback sts4.classpath.UpsbFPCh limits-service false 91
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.353
+!MESSAGE executing callback sts4.classpath.UpsbFPCh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.353
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.356
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.356
+!MESSAGE executing callback sts4.classpath.UpsbFPCh currency-conversion-service false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:05.365
+!MESSAGE executing callback sts4.classpath.UpsbFPCh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:12.386
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] CurrencyExhangeServiceApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:12.540
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:51.742
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/currency-exchange-service/src/main/resources/application.properties)[*]
+		ResourceDelta(/currency-exchange-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 14:18:51.857
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-exchange-service[*]: {CONTENT}
+		ResourceDelta(/currency-exchange-service/target)[*]]
