@@ -50,3 +50,10 @@ Created Time: 2018-11-02 15:25:38.354
 	netflix-zuul-api-gateway-server[*]: {CONTENT}
 		ResourceDelta(/netflix-zuul-api-gateway-server/src)[*]
 		ResourceDelta(/netflix-zuul-api-gateway-server/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-02 15:35:38.571
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] NetflixZuulApiGatewayServerApplication.java[*]: {PRIMARY WORKING COPY}]
