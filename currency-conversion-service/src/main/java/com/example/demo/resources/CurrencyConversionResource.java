@@ -54,8 +54,6 @@ public class CurrencyConversionResource {
 			@PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 		
-		System.out.println("geig");
-		
 		Map<String, String> uriVariables = new HashMap<>();
 		uriVariables.put("from", from);
 		uriVariables.put("to", to);
@@ -71,6 +69,14 @@ public class CurrencyConversionResource {
 				quantity.multiply(response.getConversionMultiple()),
 				response.getPort());		
 		
+	}
+	
+	@GetMapping("/saludo/{nombre}")
+	public String getNombre(
+			@PathVariable String nombre) {
+	
+		String response = proxy.getSaludo(nombre);
+		return response;
 	}
 	
 }
