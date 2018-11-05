@@ -1,1 +1,0 @@
-insert into exchange_value values(id,from,to,conversionMultiple);
