@@ -3448,3 +3448,281 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2018-11-05 10:17:36.324
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.properties.editor, propertyPage: org.springframework.ide.eclipse.boot.properties.editor.preferences.SpringYamlEditorProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:13.134
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.260
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zHBMqxyy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.261
+!MESSAGE subscribing to classpath changes: sts4.classpath.zHBMqxyy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.263
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.263
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.269
+!MESSAGE project currency-conversion-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.270
+!MESSAGE project currency-exchange-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.270
+!MESSAGE project netflix-zuul-api-gateway-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.271
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.271
+!MESSAGE project limits-service ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.271
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.276
+!MESSAGE project netflix-eureka-naming-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.277
+!MESSAGE project spring-cloud-config-server ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.281
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.281
+!MESSAGE subsribers = [sts4.classpath.zHBMqxyy]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.282
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zHBMqxyy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.287
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:14.288
+!MESSAGE executing callback sts4.classpath.zHBMqxyy currency-conversion-service false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:15.706
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:15.707
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:15.707
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:15.710
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:15.711
+!MESSAGE executing callback sts4.classpath.zHBMqxyy spring-cloud-config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.519
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.519
+!MESSAGE Preparing classpath changed notification netflix-eureka-naming-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.521
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.525
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.525
+!MESSAGE executing callback sts4.classpath.zHBMqxyy netflix-eureka-naming-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.540
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.541
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.541
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.545
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.545
+!MESSAGE executing callback sts4.classpath.zHBMqxyy limits-service false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.557
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.558
+!MESSAGE Preparing classpath changed notification netflix-zuul-api-gateway-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.558
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.562
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.562
+!MESSAGE executing callback sts4.classpath.zHBMqxyy netflix-zuul-api-gateway-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.575
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.575
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.576
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.580
+!MESSAGE classpath=168 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.580
+!MESSAGE executing callback sts4.classpath.zHBMqxyy currency-exchange-service false 168
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:25:17.603
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.732
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]
+	currency-exchange-service[*]: {RESOLVED CLASSPATH CHANGED}
+	limits-service[*]: {RESOLVED CLASSPATH CHANGED}
+	netflix-eureka-naming-server[*]: {RESOLVED CLASSPATH CHANGED}
+	netflix-zuul-api-gateway-server[*]: {RESOLVED CLASSPATH CHANGED}
+	spring-cloud-config-server[*]: {RESOLVED CLASSPATH CHANGED}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.732
+!MESSAGE Preparing classpath changed notification currency-conversion-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.733
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.736
+!MESSAGE classpath=165 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.736
+!MESSAGE executing callback sts4.classpath.zHBMqxyy currency-conversion-service false 165
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.748
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.748
+!MESSAGE Preparing classpath changed notification netflix-eureka-naming-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.749
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.753
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.753
+!MESSAGE executing callback sts4.classpath.zHBMqxyy netflix-eureka-naming-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.769
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.770
+!MESSAGE Preparing classpath changed notification spring-cloud-config-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.771
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.774
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.775
+!MESSAGE executing callback sts4.classpath.zHBMqxyy spring-cloud-config-server false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.787
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.789
+!MESSAGE Preparing classpath changed notification netflix-zuul-api-gateway-server
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.790
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.793
+!MESSAGE classpath=160 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.793
+!MESSAGE executing callback sts4.classpath.zHBMqxyy netflix-zuul-api-gateway-server false 160
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.807
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.810
+!MESSAGE Preparing classpath changed notification currency-exchange-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.814
+!MESSAGE classpath=168 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.814
+!MESSAGE executing callback sts4.classpath.zHBMqxyy currency-exchange-service false 168
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.823
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.824
+!MESSAGE Preparing classpath changed notification limits-service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.828
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.828
+!MESSAGE executing callback sts4.classpath.zHBMqxyy limits-service false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:33.844
+!MESSAGE executing callback sts4.classpath.zHBMqxyy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:36.168
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:26:36.773
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:27:50.600
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:27:50.783
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:28:44.943
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo.feign[*]: {CHILDREN}
+				[Working copy] CurrencyExchangeServiceProxy.java[*]: {CONTENT | FINE GRAINED | PRIMARY RESOURCE}
+		ResourceDelta(/currency-conversion-service/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:28:45.100
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	currency-conversion-service[*]: {CONTENT}
+		ResourceDelta(/currency-conversion-service/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-11-05 10:40:00.272
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	netflix-zuul-api-gateway-server[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.example.demo[*]: {CHILDREN}
+				[Working copy] NetflixZuulApiGatewayServerApplication.java[*]: {PRIMARY WORKING COPY}]
