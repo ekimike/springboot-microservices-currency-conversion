@@ -20,7 +20,6 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
-<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
 <fullyQualifiedTypeName name="com.example.demo.bean.CurrencyConversionBean"/>
 <fullyQualifiedTypeName name="com.example.demo.feign.CurrencyExchangeServiceProxy"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -37,4 +36,6 @@
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.hibernate.validator.internal.util.logging.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 </qualifiedTypeNameHistroy>
